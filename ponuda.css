@@ -1,0 +1,58 @@
+#tekst
+{
+	margin: 10px;
+	margin-top: 200px;
+	margin-left: 210px;
+}
+p
+{
+	text-align: justify;
+	font-family: 'Gabriela', serif;
+	color: #363636;
+}
+ul
+{
+	font-family: 'Gabriela', serif;
+	color: #363636;
+}
+#slike
+{
+	margin-left: 140px;;
+}
+ #slike li
+ {
+	list-style: none;
+	float: left;
+	width: 160px;
+	text-align: center;
+	border: 1px solid #666;
+	padding: 13px 10px;
+	background-color: #DBDBDB;
+	margin-top: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	box-shadow: 2px 2px 10px #000;
+	-webkit-box-shadow: 2px 2px 10px #000;
+	-moz-box-shadow: 2px 2px 10px #000;
+	-o-box-shadow: 2px 2px 10px #000;
+ }
+ #slika1
+ {
+	-webkit-transform: rotate(12deg);
+	-moz-transform: rotate(12deg);
+	-o-transform: rotate(12deg);
+ }
+ #slika2
+ {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+ }
+ #slika3
+ {
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+ }

@@ -1,0 +1,19 @@
+#left_main
+{
+	float: left;
+	width: 440px;
+	margin: 10px;
+	margin-top: 70px;
+}
+p
+{
+	text-align: justify;
+	font-family: 'Gabriela', serif;
+	color: #363636;
+}
+#right_main
+{
+	float: right;
+	margin-top: 60px;
+	margin-right: 10px;
+}

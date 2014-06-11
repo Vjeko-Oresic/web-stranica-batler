@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="google-site-verification" content="googlea442a4bea7704bfe.html">
+		<meta name="robots" content="noodp">
+		<meta name="googlebot" content="noodp">
+		<meta name="description" content="Stranica za iznajmljivanje stolova, stolica, šatora, čaša, tanjura, svijećnjaka i ostale opreme">
+		<meta name="keywords" content="iznajmljivanje stolova i stolica, iznajmljivanje presvlaka za stolice, šatori iznajmljivanje, šatori za vjenčanje, najam opreme za vjenčanje, iznajmljivanje stolica, iznajmljivanje stolova, iznajmljivanje stolova i stolica, najam stolica, najam stolova, najam stolova i stolica">	
+		<link type="text/css" rel="stylesheet" href="stil.css"/>
+		<link type="text/css" rel="stylesheet" href="kontakt.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Allura|Gabriela&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<title>Kontakt - Obrt za iznajmljivanje Batler | Obrt za najam stolova, stolica i ostale opreme</title>
+		<script src="validate/jquery.js"></script>
+		<script src="validate/jquery-1.9.0.js"></script>
+		<script src="validate/jquery.validate.js"></script>
+		<script type="text/javascript">
+			$().ready(function(){
+				  $("#email_forma").validate();					
+			});
+		</script>
+	</head>
+	<body style="background-image:url(paper.png); background-repeat:repeat;">
+		<div id="container">
+			<div id="header">
+				<div id="name">
+					Iznajmljivanje Batler
+				</div>
+				<div id="menu">
+					<a href="index.html">Početna</a>
+					<a href="ponuda.html">Ponuda</a>
+					<a href="galerija.html">Galerija</a>
+					<a href="kontakt.html">Kontakt</a>
+				</div>
+				<div id="line">
+				</div>
+			</div>
+			<div id="main">
+				<div id="left">
+					<h1>Kontakt informacije</h1>
+					<h2>Adresa</h2>
+					<p>35400 Nova Gradiška, Hrvatska</p>
+					<h2>Telefon</h2>
+					<p>(385) 091 538 4334</p>
+					<h2>E mail</h2>
+					<p>iznajmljivanje.batler@gmail.com</p>
+					<h2>Facebook</h2>
+					<p>facebook.com/iznajmljivanje.batler</p>
+				</div>
+				<div id="right">
+					<h1>Kontakt forma</h1>
+					<form id="email_forma" name="email_forma" method="post" action="send_email.php">
+						<table>
+							<tr>
+								<td>
+									<p><strong>Ime i prezime*</strong></p>
+									<input type="text" size="28" minlength="2" id="ime" name="ime" required/>
+								</td>
+								<td>
+									<p><strong>Email*</strong></p>
+									<input type="email" id="email" name="email" required/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<p><strong>Naslov poruke</strong></p>
+									<input type="text" size="50" id="naslov" name="naslov" value=""/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p><strong>Broj telefona</strong></p>
+									<input type="text" id="tel" name="tel"/>
+								</td>
+								<td>
+									<p><strong>Datum najma</strong></p>
+									<input type="date" id="datum" name="datum"/>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<p><strong>Vaša poruka*</strong></p>
+									<textarea rows="4" cols="50" id="poruka" name="poruka" required></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td><span id="greska">*Obavezna polja</span></td>
+								<td align="right">
+									<input type="submit" name="posalji" class ="posalji" value="Pošalji"/>
+									<input type="reset" name="ponisti" value="Poništi"/>
+								</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &#169; 2013 Batler. Vjekoslav Orešić - OWS project
+			</div>
+		</div>
+	</body>
+</html>

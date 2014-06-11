@@ -1,0 +1,68 @@
+#left
+{
+	font-family: 'Gabriela', serif;
+	float: left;
+	padding-left: 10px;
+	padding-right: 150px;
+}
+h1
+{
+	font-family: 'Gabriela', serif;
+	font-size: 20px;
+	color: #363636;
+}
+h2
+{
+	font-family: 'Gabriela', serif;
+	font-size: 15px;
+	color: #525252;
+	padding-bottom: 5px;
+	border-bottom: 1px solid;
+	border-color: #8C8C8C;
+}
+p
+{
+	font-family: 'Gabriela', serif;
+	font-size: 13px;
+	color: #525252;
+	margin: 8px;
+}
+input
+{
+	font-family: 'Gabriela', serif;
+	background-color: #D9D9D9;
+	border: 1px solid;
+	border-color: #8C8C8C;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+label.error
+{
+	font-family: 'Gabriela', serif;
+	font-size: 12px;
+	padding-left: 5px;
+	color: #CC0000;
+	display: block;
+}
+textarea
+{
+	font-family: 'Gabriela', serif;
+	background-color: #D9D9D9;
+	border: 1px solid;
+	border-color: #8C8C8C;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#greska
+ {
+	font-family: 'Gabriela', serif;
+	font-size: 11px;
+ }
+#right
+{
+	font-family: 'Gabriela', serif;
+}
